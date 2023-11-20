@@ -1,0 +1,15 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask App</title>
+</head>
+<body>
+    <h1>Visualización de Datos</h1>
+    
+    <!-- Inserta la imagen generada por matplotlib -->
+    <img src="data:image/png;base64,{{ plot_url }}" alt="Grafico de datos">
+</body>
+</html>
